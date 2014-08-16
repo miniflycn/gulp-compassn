@@ -1,6 +1,6 @@
 # grunt-compassn
 
-> Compile Compass to CSS using compass-node.
+> Compile Compass to CSS using [compass-node](https://github.com/miniflycn/node-compass).
 
 ## Install
 
