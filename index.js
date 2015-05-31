@@ -16,8 +16,8 @@ module.exports = function (options) {
     if (isBuffer) {
       compass.render(file.path, merge({
         data: file.contents.toString(),
-        success: function (contents) {
-          file.contents = new Buffer(contents);
+        success: function (css) {
+          file.contents = new Buffer(css.css);
           file.path = file.path.replace(/\.scss$/, '/.css');
           fn(null, file);
         },

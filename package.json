@@ -1,6 +1,6 @@
 {
   "name": "gulp-compassn",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Compile Compass to CSS using compass-node",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "compass-node": "0.0.10",
+    "compass-node": "^0.1.5",
     "map-stream": "^0.1.0",
     "utils-merge": "^1.0.0"
   }
